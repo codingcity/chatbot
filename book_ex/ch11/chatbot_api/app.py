@@ -67,7 +67,7 @@ def query(bot_type):
             event = body['event']
 
             from NaverEvent import NaverEvent
-            authorization_key = '<보내기 API 인증키>'
+            authorization_key = 'S40WyViyQWmVJrVEk8VG'
             naverEvent = NaverEvent(authorization_key)
 
             if event == "open":
